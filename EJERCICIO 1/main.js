@@ -15,3 +15,5 @@ localStorage.setItem("producto1", JSON.stringify(Producto1)); //se guarda en el 
 // 2
 const DatosGuardados = localStorage.getItem("producto1"); // se recupera del local
 const ObjetoPlano = JSON.parse(DatosGuardados); // se devuelve de formato JSON al normal
+
+console.log(ObjetoPlano); // se muestra en consola 
