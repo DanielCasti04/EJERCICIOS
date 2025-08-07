@@ -8,5 +8,5 @@ class Producto {
     return (total = this.precio * this.cantidad);
   }
 }
-const Producto1 = Producto("zapato", 300, 2);
-localStorage.setItem("producto1", JSON.stringify(Producto1));
+const Producto1 = new Producto("zapato", 300, 2); //se crea el pbjeto
+localStorage.setItem("producto1", JSON.stringify(Producto1)); //se guarda en el local
